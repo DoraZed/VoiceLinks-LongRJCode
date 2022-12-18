@@ -1,13 +1,11 @@
 // ==UserScript==
-// @name        VoiceLinks
-// @namespace   Sanya modified by zed
+// @name        VoiceLinks-LongRJCode
+// @namespace   Sanya, modified by DoraZed
 // @description Makes RJ codes more useful.
 // @include     *://*/*
 // @version     2.1.0
 // @grant       GM.xmlHttpRequest
 // @grant       GM_xmlhttpRequest
-// @updateURL   https://github.com/Sanyarin/VoiceLinks/raw/master/VoiceLinks.user.js
-// @downloadURL https://github.com/Sanyarin/VoiceLinks/raw/master/VoiceLinks.user.js
 // @run-at      document-start
 // ==/UserScript==
 
