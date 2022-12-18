@@ -152,7 +152,7 @@
               else
                   upper = matches[i + 1].index;
               let substring;
-              if (substring = nodeOriginalText.substring(matches[i].index + matches[0].value.length, upper)) {
+              if (substring = nodeOriginalText.substring(matches[i].index + matches[i].value.length, upper)) {
                   const subtextNode = document.createTextNode(substring);
                   textNode.parentNode.insertBefore(
                       subtextNode,
