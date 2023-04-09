@@ -3,7 +3,7 @@
 // @namespace   Sanya, modified by DoraZed
 // @description Makes RJ codes more useful.
 // @include     *://*/*
-// @version     2.1.0
+// @version     2.1.1
 // @grant       GM.xmlHttpRequest
 // @grant       GM_xmlhttpRequest
 // @run-at      document-start
@@ -306,7 +306,8 @@
              rj_group = "RJ" + rj_group.padStart(rj_len-2,'0');
          }
 
-          workInfo.img = "https://img.dlsite.jp/modpub/images2/work/doujin/" + rj_group + "/" + rj + "_img_main.jpg";
+//        workInfo.img = "https://img.dlsite.jp/modpub/images2/work/doujin/" + rj_group + "/" + rj + "_img_main.jpg";
+          workInfo.img = "https:" + dom.querySelector("source").srcset;
           workInfo.title = dom.getElementById("work_name").innerText;
           workInfo.circle = dom.querySelector("span.maker_name").innerText;
 
